@@ -1,0 +1,34 @@
+name: hfmgui
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  dio:
+  intl:
+
+  #Recommended Dependencies
+  #Animation
+  # animate_do:
+  # simple_animations:
+  #Common UI
+  # carousel_slider:
+  # flutter_spinkit:
+  #
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/img/
+    - assets/logo/

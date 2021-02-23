@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "[DEV] flutter build apk arm64",
+            "type": "shell",
+            "command": "flutter build apk --release --target-platform android-arm64 --dart-define=CURRENT_FLAVOR=dev  --flavor dev",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[PROD] flutter build apk arm64",
+            "type": "shell",
+            "command": "flutter build apk --release --target-platform android-arm64 --dart-define=CURRENT_FLAVOR=prod  --flavor prod",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "[PROD] flutter build appbundle",
+            "type": "shell",
+            "command": "flutter build appbundle --dart-define=CURRENT_FLAVOR=prod --flavor prod",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
