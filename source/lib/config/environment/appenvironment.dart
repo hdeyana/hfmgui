@@ -12,11 +12,11 @@ class AppEnvironment {
 
   static init() {
     if (_flavor == "prod") {
-      baseURL = "https://nafas.co.id/";
-      domain = "nafas.co.id";
+      baseURL = "https://domain.prod/";
+      domain = "domain.prod";
     } else {
-      baseURL = "https://nafas.dev/";
-      domain = "nafas.dev";
+      baseURL = "https://domain.dev/";
+      domain = "domain.dev";
     }
   }
 }

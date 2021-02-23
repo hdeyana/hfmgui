@@ -26,7 +26,32 @@ dependencies:
   get:
   dio:
   intl:
+  uni_links:
+  package_info: ^0.4.3+4
+  url_launcher: ^5.7.10
 
+  #ui
+  fluentui_icons: ^0.2.0
+  simple_animations: ^2.4.2
+  animate_do:
+  flutter_spinkit: ^4.1.2
+
+  #input
+  flutter_form_builder: 4.2.0
+  flutter_colorpicker: ^0.3.5
+
+  #Image Picker And Crop
+  file_selector: ^0.7.0+2
+  extended_image:
+    git:
+      url: https://github.com/fluttercandies/extended_image
+      ref: dev
+  isolate: ^2.0.3
+  image_editor: ^0.7.3
+  image: ^2.1.19
+
+dependency_overrides:
+  intl: 0.17.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

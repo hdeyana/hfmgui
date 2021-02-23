@@ -10,9 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  #base project
   get:
   dio:
   intl:
+  uni_links:
 
   #Recommended Dependencies
   #Animation
